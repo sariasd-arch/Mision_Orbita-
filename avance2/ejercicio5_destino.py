@@ -1,4 +1,11 @@
-# Ejercicio 5: Selección del destino y autorización de la misión
+# ============================================================
+# Archivo: ejercicio5_destino.py
+# Curso: SOFT-01 Principios de Programación 1 - Sección SCP0
+# Descripción: Selecciona el destino y verifica si la misión
+# tiene suficientes recursos para autorizar el lanzamiento.
+# ============================================================
+
+# # Ejercicio 5: Selección del destino y autorización de la misión
 
 # Constantes
 CONSUMO_COMBUSTIBLE_DIA = 8
