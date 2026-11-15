@@ -5,8 +5,6 @@
 # tiene suficientes recursos para autorizar el lanzamiento.
 # ============================================================
 
-# # Ejercicio 5: Selección del destino y autorización de la misión
-
 # Constantes
 CONSUMO_COMBUSTIBLE_DIA = 8
 CONSUMO_OXIGENO = 2
@@ -29,10 +27,7 @@ print("3. Europa")
 opcion_destino = int(input("Digite la opción de destino: "))
 
 # Recursos disponibles
-combustible_disponible = int(input("Ingrese el combustible disponible: "))
-oxigeno_disponible = int(input("Ingrese el oxígeno disponible: "))
-energia_disponible = int(input("Ingrese la energía disponible: "))
-provisiones_disponibles= int(input("Ingrese las provisiones disponibles: "))
+
 
 # Selección del destino
 match opcion_destino:
@@ -54,6 +49,11 @@ match opcion_destino:
        # Verificar si el destino es válido
 if opcion_destino == 1 or opcion_destino == 2 or opcion_destino == 3:
 
+    combustible_disponible = int(input("Ingrese el combustible disponible: "))
+    oxigeno_disponible = int(input("Ingrese el oxígeno disponible: "))
+    energia_disponible = int(input("Ingrese la energía disponible: "))
+    provisiones_disponibles = int(input("Ingrese las provisiones disponibles: "))
+    
         # Cálculo de recursos requeridos
     combustible_ida = dias_viaje * CONSUMO_COMBUSTIBLE_DIA
     combustible_regreso = dias_viaje * CONSUMO_COMBUSTIBLE_DIA
